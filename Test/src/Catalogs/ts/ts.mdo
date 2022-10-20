@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c45ae5bc-e360-4df0-ae3f-1af38c015f7a">
+  <producedTypes>
+    <objectType typeId="f9d553ac-19a0-4d67-b724-95e8cf8f6a58" valueTypeId="beb340b0-7315-419c-bcd5-e8c881df30db"/>
+    <refType typeId="433638d3-0f1d-4955-9733-5f2f59660af1" valueTypeId="e1b47953-1378-456c-8379-47f324e3a776"/>
+    <selectionType typeId="56ddef07-944d-4555-9848-87b3f2be5157" valueTypeId="1d34f15f-d300-4c43-a42a-19bd62c0a22f"/>
+    <listType typeId="e1e3f389-3e2e-47eb-ba00-48aa9a200aac" valueTypeId="fd81ba68-d3f4-481b-88cf-a9125c9034ee"/>
+    <managerType typeId="8186ebbc-c2a3-4c93-bd7a-8add70360e94" valueTypeId="645a6c83-397f-4a37-bc56-a99e6508f2dc"/>
+  </producedTypes>
+  <name>ts</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ts</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ts.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ts.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ts.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="0b0f95d7-0480-4890-bb90-8681d3d9c394">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="aa6fede3-8c1b-4d5b-b439-8589b6a499d8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

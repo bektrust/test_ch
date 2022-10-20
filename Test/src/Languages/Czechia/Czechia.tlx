@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<v8lang:V8TranslateLanguage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:v8lang="http://1c.ru/langtool/v8/dt/lang/model" uuid="de60b6e0-7683-40d8-816b-6aa1082fdfa7">
+  <name>Czechia</name>
+  <synonym>
+    <key></key>
+    <value>Language</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Czechia</value>
+  </synonym>
+  <languageCode>cs</languageCode>
+  <option>INTERFACE_ONLY</option>
+</v8lang:V8TranslateLanguage>
